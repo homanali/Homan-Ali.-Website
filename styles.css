@@ -1,0 +1,137 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@200;400;700&display=swap');
+
+body {
+    font-family: 'Raleway', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #ffffff !important;
+    color: white;
+}
+
+.container {
+    width: 100%;
+    margin: auto;
+    padding: 0px;
+}
+
+#S1 {
+    text-align: center;
+    background: linear-gradient(135deg, #20b2aa, #444); /* Default background */
+    color: #ffffff;
+    padding: 30px;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+#new-design {
+    text-align: center;
+    margin-top: 20px;
+}
+
+#new-design img {
+    width: 60%;
+    max-width: 100px;
+    height: auto;
+    border-radius: 8px;
+}
+
+#menu-button, #language-button {
+    position: fixed;
+    top: 20px;
+    width: 40px;
+    height: 40px;
+    background: #444;
+    color: white;
+    font-size: 20px;
+    text-align: center;
+    line-height: 40px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+#menu-button {
+    right: 20px;
+}
+
+#language-button {
+    left: 20px;
+}
+
+#dropdown-menu, #language-menu {
+     color: #dcdcdc;
+    position: absolute;
+    background: black;
+    padding: 10px;
+    border-radius: 8px;
+    opacity: 0;
+    visibility: hidden;
+    transition: opacity 0.3s ease-in-out, visibility 0.3s ease-in-out;
+}
+
+#dropdown-menu {
+    top: 60px;
+    right: 20px;
+}
+
+#language-menu {
+    top: 60px;
+    left: 20px;
+}
+
+#dropdown-menu.show, #language-menu.show {
+    opacity: 1;
+    visibility: visible;
+}
+
+.section {
+    padding: 20px;
+    background: #5f9ea0;
+    margin: 20px 0;
+    border-radius: 8px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+ul li {
+    font-size: 15px;
+    padding: 7px;
+    background: #2f4f4f;
+    margin: 2px;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+#socials {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    flex-wrap: wrap;
+    margin-top: 20px;
+}
+
+#socials a {
+    color: #7fff00;
+    font-size: 16px;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 8px 12px;
+    border-radius: 5px;
+    background:#2f4f4f;
+    transition: 0.3s;
+}
+
+#socials a:hover {
+    background: #ff9800;
+    color: #008b8b;
+}
+
+#email {
+    text-align: center;
+    font-size: 18px;
+    font-weight: bold;
+    padding: 10px;
+}
